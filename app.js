@@ -8,55 +8,46 @@ const ourCategories = [
             question: "What food was served at Sir Nicks death day party in Harry Potter and the Sorcers Stone?",
             multipleChoices: ["Rotten food","Shepherd's pie","Butterbeer","Chocolate frog"],
             answer: "Rotten food",
-            difficulty: "easy"
         },
         {
             question: "What house does the sorting hat want to place Harry in?",
             multipleChoices: ["Gryffindor","Ravenclaw","Slytherin", "Hufflepuff"] ,
             answer: "Slytherin",
-            difficulty: "easy"
         },
         {
             question: "What does Hermione use to take extra classes in Harry Potter and the Prizoner of Azkaban?",
             multipleChoices: ["Deluminator","Howler", "Time turner", "Watcher"] ,
             answer: "Time turner",
-            difficulty: "easy"
         },
         {
             question: "What position does Harry play?",
             multipleChoices: ["Seeker","Keeper","Beater","Chaser"] ,
             answer: "Seeker",
-            difficulty: "easy"
         },
         {
             question: "What kind of pet does Harry have?",
             multipleChoices: ["Owl named Hedwig","Cat named Crookshanks","Owl named Luna", "Rat named Scabbers"] ,
             answer: "Owl named Hedwig",
-            difficulty: "easy"
         },
         {
             question: "What is the password to get to Hogsmeade? ",
             multipleChoices: ["Wingardium Levios", "Dissendium", "Lumos","Obliviate"],
             answer: "Dissendium",
-            difficulty: "easy"
         },
         {
             question: "Who is the first to comfort Harry after Sirius Black dies?",
             multipleChoices: ["Ron", "Neville", "Ginny", "Lupin"],
             answer: "Lupin",
-            difficulty: "easy"
         },
         {
             question: "How does Ron open the chamber of secrets during the final battle at Hogwarts?",
             multipleChoices: ["He learned by hearing Harry speak parsletounge in his sleep","He and Hermione found another way in", "Harry opens it for them", "Harry taught him how to say a phrase"],
             answer: "He learned by hearing Harry speak parsletounge in his sleep",
-            difficulty: "easy"
         },
         {
             question: "Who is Prongs?",
             multipleChoices: ["Mad Eye Moody", "Dumbledore", "James Potter", "Harry Potter"],
             answer: "James Potter",
-            difficulty: "easy"
         }
     ];
 
