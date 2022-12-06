@@ -1,4 +1,5 @@
 const scoreDisplay = document.getElementById('ourScoreDisplay')
+const totalQDisplay = document.getElementById('totalQuestionsDisplay')
 const questionDisplay = document.getElementById('showQuestions')
 
 //the user must go through each question
@@ -51,7 +52,9 @@ const ourCategories = [
         }
     ];
 
+let totalQ = 0;
 let ourScore = 0;
+totalQDisplay.textContent = totalQ;
 scoreDisplay.textContent = ourScore;
     
 function createBoard () {
@@ -102,14 +105,17 @@ function checkAnswer(qButton, index) {
     if (index < ourCategories.length) {
         theAnswer = ourCategories[index].answer;
         if (theAnswer === qButton.innerHTML) {
-            ourScore ++;
+                totalQ ++;
+                ourScore ++;
+                totalQDisplay.innerHTML = totalQ;
                 scoreDisplay.innerHTML = ourScore;
-                qButton.style.background = "green"
+                qButton.style.background = "green";
                 } 
             else {
-                ourScore --;
+                totalQ ++;
+                totalQDisplay.innerHTML = totalQ;
                 scoreDisplay.innerHTML = ourScore;
-                qButton.style.background = "red"
+                qButton.style.background = "red";
                 }
             }
 
