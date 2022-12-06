@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+
+h1, h2 {
+    font-family: 'Londrina Shadow', sans-serif;
+    text-align: center;
+    font-size: 75px;
+    color: #dddddd;
+    margin: 60px 0 0 0;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+#ourScoreDisplay {
+    color: white;
+    text-align: center;
+}
+
+.questionBox {
+    color: white;
+}
+
+.ourContainer {
+    border: solid;
+    border-color: white;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.questionButton {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 30px;
+    border: none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
