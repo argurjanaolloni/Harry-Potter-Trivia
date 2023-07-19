@@ -58,23 +58,23 @@ totalQDisplay.textContent = totalQ;
 scoreDisplay.textContent = ourScore;
     
 function createBoard () {
-    // this first loop will create a div for each question in my object ourCategories
+    // this first loop will create a div for each question in my array ourCategories
     for (let i = 0; i < ourCategories.length; i++) {
         const questionBox = document.createElement('div')
         questionBox.classList.add('questionBox')
             
-        // this will create a p element that contains the question
+        // this will create a p element that contains the question within the div questionBox
         const ourQ = document.createElement('p')
         ourQ.textContent = (ourCategories[i].question);
         questionBox.append(ourQ);
             
             
-        //this will create a new div to carry all of our buttons
+        //this will create a new div to carry all of our buttons within the div questionBox
         const questionButtons = document.createElement('div');
         questionButtons.classList.add('buttons');
         questionBox.append(questionButtons);
 
-        //for loop to go through each index in ourCategories[i].multipleChoice it creates a button for each of my multiple choice options
+        //for loop to go through each index in ourCategories[i].multipleChoice, it creates a button for each of my multiple choice options
         for (let j = 0; j < ourCategories[i].multipleChoices.length; j++) {
             const qButton = document.createElement('button');
             qButton.classList.add('questionButton');
